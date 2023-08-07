@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    z-index: 1000;
+    border-bottom: solid 1px lightgray;
+    padding: 0 20px;
+}
+
+.logo {
+    height: 45px;
+}
+
+.title {
+    position: absolute;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+}
+
+.title h1{
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-size: 62px;
+    user-select: none;
+    top: 360px;
+    left: 920px;
+}
+
+.background {
+    position: relative;
+    top: -80px;
+    width: 100%;
+}
